@@ -1,0 +1,76 @@
+.admin-dashboard-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color:darkgray;
+}
+
+.admin-dashboard-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.admin-options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.admin-option {
+  flex: 1;
+  margin: 0 10px;
+  padding: 20px;
+  text-align: center;
+  background-color:darkcyan;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.admin-option:hover {
+  background-color:darkcyan;
+}
+
+.add-flight-form, .remove-flight-form {
+  margin-top: 20px;
+}
+
+.add-flight-form h3, .remove-flight-form h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.add-flight-form form, .remove-flight-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-flight-form input, .remove-flight-form input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-flight-form button, .remove-flight-form button {
+  padding: 10px 20px;
+  background-color:darkcyan;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-flight-form button:hover, .remove-flight-form button:hover {
+  background-color:darkcyan;
+}

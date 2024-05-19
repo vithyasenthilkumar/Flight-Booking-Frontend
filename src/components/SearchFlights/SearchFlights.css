@@ -1,0 +1,84 @@
+/* frontend/src/components/SearchFlights.css */
+.search-flights-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color:darkgray;
+  }
+  
+  .search-flights-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .search-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .search-form input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    flex: 1;
+  }
+  
+  .search-form button {
+    padding: 10px;
+    background-color:darkcyan;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .search-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .flights-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .flights-table th,
+  .flights-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .flights-table th {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .flights-table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  .flights-table tbody tr:nth-child(even) {
+    background-color: #e9e9e9;
+  }
+  
+  .flights-table button {
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .flights-table button:hover {
+    background-color: #218838;
+  }
+  
